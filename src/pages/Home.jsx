@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSearch } from "../context/SearchContext";
 import SearchBar from "../components/SearchBar";
-import FilterDropdown from "../components/FilterDropdown";
+import FilterDropDown from "../components/FilterDropdown";
 import MovieGrid from "../components/MovieGrid";
 import { Link } from "react-router-dom";
 
@@ -33,7 +33,7 @@ const Home = () => {
               dispatch({ type: "SET_QUERY", payload: newQuery })
             }
           />
-          <FilterDropdown
+          <FilterDropDown
             selectedType={selectedType}
             setSelectedType={(type) =>
               dispatch({ type: "SET_TYPE", payload: type })
