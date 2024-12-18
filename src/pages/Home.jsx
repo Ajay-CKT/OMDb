@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSearch } from "../context/SearchContext";
 import SearchBar from "../components/SearchBar";
-import FilterDropDown from "../components/FilterDropdown";
+import FilterDropDown from "../components/FilterDropDown";
 import MovieGrid from "../components/MovieGrid";
 import { Link } from "react-router-dom";
 
