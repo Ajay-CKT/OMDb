@@ -1,4 +1,4 @@
-const FilterDropdown = ({ selectedType, setSelectedType }) => {
+const FilterDropDown = ({ selectedType, setSelectedType }) => {
   const handleFilterChange = (event) => {
     setSelectedType(event.target.value);
   };
@@ -20,4 +20,4 @@ const FilterDropdown = ({ selectedType, setSelectedType }) => {
   );
 };
 
-export default FilterDropdown;
+export default FilterDropDown;
